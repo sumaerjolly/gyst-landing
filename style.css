@@ -1,3 +1,7 @@
+body {
+  font-family: roboto, helvetica neue, helvetica, arial, sans-serif;
+}
+
 .content-wrapper-area {
   position: relative;
   z-index: 1;
@@ -25,14 +29,25 @@ a {
   text-decoration: none;
 }
 
-@media screen and (max-width: 600px) {
+.main-tagline {
+  color: #000000;
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.sub-tagline {
+  font-size: 18px;
+  line-height: 150%;
+}
+
+@media screen and (max-width: 1200px) {
   img {
     width: 100%;
     padding-top: 35px;
   }
 
   .content-wrapper-area {
-    min-height: 85vh;
+    min-height: 60vh;
     padding: 20px;
   }
 }
